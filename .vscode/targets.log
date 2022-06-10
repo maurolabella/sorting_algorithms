@@ -1,0 +1,951 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun  9 21:46:32 2022
+
+# Variables
+
+ 
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = letter
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 19)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 18)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/mauro/Programming/Holberton/sorting_algorithms
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 22)
+RM = rm
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:45401
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'mem_mngmnt_free.d', line 1)
+MAKEFILE_LIST :=  Makefile help_1.d shell_complement_A.d helpHistory.d helpFunc.d environ_variable_mngmnt.d linked_list_complement_B.d shell_live.d mem_mngmnt_realloc.d built_ins_cd_complement.d helpExit.d error_mngmnt.d check_path.d findbuilt.d helpEnv.d string_complement_B.d string_complement_C.d main.d string_complement_D.d helpMenu.d linked_list_complement_A.d exitfunc.d string_complement_A.d history_aliasfunc.d built_ins_cd_0.d mem_mngmnt_free.d
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = mauro
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -g -Wall -Werror -Wextra -pedantic -std=gnu89
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/97/usr/share/code/code
+# makefile (from 'Makefile', line 25)
+DEL = del
+# environment
+MANAGERPID = 1668
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/mauro
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/mauro/.local/bin:/home/mauro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'Makefile', line 20)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# environment
+SESSION_MANAGER = local/mauro-SVT21217CXB:@/tmp/.ICE-unix/1884,unix/mauro-SVT21217CXB:/tmp/.ICE-unix/1884
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/mauro/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/97
+# environment
+SNAP_VERSION = c3511e6c
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9c9cc80b4a5d4113bf3e9c1f43d81b92
+# makefile (from 'Makefile', line 8)
+LDFLAGS = 
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 39850
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'Makefile', line 13)
+SRCDIR = /home/mauro/Programming/Holberton/tmp/simple_shell/src
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/mauro/Programming/Holberton/sorting_algorithms
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1847
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mauro
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mauro/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = mauro
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 23)
+DELOBJ = $(OBJ)
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = rkXmz5YR28qQotmbwSciFKnUFNKG4qXupHRMDpmB46AQS-Yz3-nS
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/mauro/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+SNAP_REAL_HOME = /home/mauro
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/mauro/snap/code/97
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 6)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-32c4e2e4-8d22-430f-bda9-28391f7c79b3.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = mauro
+# environment
+SNAP_REVISION = 97
+# environment
+LC_MONETARY = en_US.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ab612523-1.67.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 12)
+EXT = .c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_US.UTF-8
+# makefile (from 'Makefile', line 11)
+APPNAME = 
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = rkXmz5YR28qQotmbwSciFKnUFNKG4qXupHRMDpmB46AQS-Yz3-nS
+# environment
+LC_NUMERIC = en_US.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 14)
+OBJDIR = /home/mauro/Programming/Holberton/tmp/simple_shell/obj
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 27)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 26)
+EXE = .exe
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LANG = C
+ 
+# environment
+VSCODE_PID = 39898
+# variable set hash-table stats:
+# Load=145/1024=14%, Rehash=0, Collisions=36/238=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 14026359): 43 files, no impossibilities.
+# /home/mauro/Programming/Holberton/tmp/simple_shell/src (device 2050, inode 13764340): 28 files, no impossibilities.
+
+# 71 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/%.c
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/%.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/%.c
+#  recipe to execute (from 'Makefile', line 52):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/helpFunc.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpFunc.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+exitfunc.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/exitfunc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'exitfunc'
+#  Last modified 2022-06-09 21:46:31.09058755
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/helpHistory.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpHistory.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+helpMenu.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpMenu.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'helpMenu'
+#  Last modified 2022-06-09 21:46:31.138588127
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/built_ins_cd_0.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_0.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/history_aliasfunc.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/history_aliasfunc.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/string_complement_D.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_D.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/error_mngmnt.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/error_mngmnt.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+built_ins_cd_complement.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_complement.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'built_ins_cd_complement'
+#  Last modified 2022-06-09 21:46:31.778595818
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+shell_live.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_live.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'shell_live'
+#  Last modified 2022-06-09 21:46:31.826596394
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+linked_list_complement_B.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_B.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'linked_list_complement_B'
+#  Last modified 2022-06-09 21:46:31.846596635
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+environ_variable_mngmnt.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/environ_variable_mngmnt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'environ_variable_mngmnt'
+#  Last modified 2022-06-09 21:46:31.902597308
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_live.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-22 15:23:28.187408471
+#  File has been updated.
+#  Successfully updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+ 
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/linked_list_complement_B.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_B.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/exitfunc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean cleandep cleanw cleandepw
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/help_1.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/help_1.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/findbuilt.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/findbuilt.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/main.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+findbuilt.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/findbuilt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'findbuilt'
+#  Last modified 2022-06-09 21:46:31.558593174
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 15:28:35.719829357
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/environ_variable_mngmnt.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+helpFunc.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpFunc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'helpFunc'
+#  Last modified 2022-06-09 21:46:31.934597693
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+helpHistory.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpHistory.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'helpHistory'
+#  Last modified 2022-06-09 21:46:31.986598317
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+history_aliasfunc.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/history_aliasfunc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'history_aliasfunc'
+#  Last modified 2022-06-09 21:46:31.034586877
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 13:26:53.171444961
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/built_ins_cd_complement.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_complement.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/string_complement_C.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_C.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/helpEnv.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpEnv.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_realloc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/helpExit.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpExit.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+shell_complement_A.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_complement_A.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'shell_complement_A'
+#  Last modified 2022-06-09 21:46:32.034598894
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+help_1.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/help_1.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'help_1'
+#  Last modified 2022-06-09 21:46:32.054599134
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_complement_A.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-19 22:49:16.579364691
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_free.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/helpMenu.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+check_path.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/check_path.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'check_path'
+#  Last modified 2022-06-09 21:46:31.626593991
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/check_path.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/shell_live.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_live.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/exitfunc.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/exitfunc.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-06-09 21:46:31.250589472
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+string_complement_B.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_B.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'string_complement_B'
+#  Last modified 2022-06-09 21:46:31.410591395
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_A.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+helpEnv.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpEnv.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'helpEnv'
+ 
+#  Last modified 2022-06-09 21:46:31.502592502
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_B.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-20 17:17:47.382254475
+#  File has been updated.
+#  Successfully updated.
+
+error_mngmnt.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/error_mngmnt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'error_mngmnt'
+#  Last modified 2022-06-09 21:46:31.67059452
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+helpExit.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpExit.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'helpExit'
+#  Last modified 2022-06-09 21:46:31.718595097
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/environ_variable_mngmnt.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/environ_variable_mngmnt.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 35)
+release: CXXFLAGS = -Wall -02 -DNDEBUG
+release: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/helpFunc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-21 17:27:23.699710276
+#  File has been updated.
+#  Successfully updated.
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(RM) $(DEP)
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/helpHistory.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 74):
+	$(DEL) $(DEP)
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_0.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-21 17:48:42.790074418
+#  File has been updated.
+#  Successfully updated.
+
+string_complement_D.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_D.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'string_complement_D'
+#  Last modified 2022-06-09 21:46:31.178588607
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/history_aliasfunc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_D.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-04-20 13:38:49.320753699
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/error_mngmnt.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/string_complement_A.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_A.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mem_mngmnt_realloc.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_realloc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'mem_mngmnt_realloc'
+#  Last modified 2022-06-09 21:46:31.802596106
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/mem_mngmnt_realloc.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_realloc.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_B.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+mem_mngmnt_free.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_free.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'mem_mngmnt_free'
+#  Last modified 2022-06-09 21:46:30.902585291
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/shell_complement_A.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/shell_complement_A.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/help_1.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/findbuilt.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/mem_mngmnt_free.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/mem_mngmnt_free.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_A.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-21 16:14:08.82311887
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/helpMenu.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/helpMenu.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+built_ins_cd_0.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_0.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'built_ins_cd_0'
+#  Last modified 2022-06-09 21:46:30.954585915
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/check_path.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/check_path.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linked_list_complement_A.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_A.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'linked_list_complement_A'
+#  Last modified 2022-06-09 21:46:31.114587838
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/built_ins_cd_complement.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+ 
+#  Successfully updated.
+
+string_complement_C.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_C.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'string_complement_C'
+#  Last modified 2022-06-09 21:46:31.306590145
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/linked_list_complement_A.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/linked_list_complement_A.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_C.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+/home/mauro/Programming/Holberton/tmp/simple_shell/obj/string_complement_B.o: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_B.c /home/mauro/Programming/Holberton/tmp/simple_shell/src/main.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/helpEnv.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/mauro/Programming/Holberton/tmp/simple_shell/src/helpExit.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 02:15:13.854290093
+#  File has been updated.
+#  Successfully updated.
+
+string_complement_A.d: /home/mauro/Programming/Holberton/tmp/simple_shell/src/string_complement_A.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'string_complement_A'
+#  Last modified 2022-06-09 21:46:31.062587214
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# files hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=15/262=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 160 / storage = 5369 B / avg = 33 B
+# current buf: size = 8162 B / used = 5369 B / count = 160 / avg = 33 B
+
+# strcache performance: lookups = 339 / hit rate = 52%
+# hash-table stats:
+# Load=160/8192=2%, Rehash=0, Collisions=32/339=9%
+# Finished Make data base on Thu Jun  9 21:46:32 2022
+
+ 
