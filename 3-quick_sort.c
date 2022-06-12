@@ -28,6 +28,7 @@ void swap(int *array, int *a, int *b, size_t size)
  * @array: integer's array
  * @first_index: initial index for recursive purposes
  * @last_index: final index for recursive purposes
+ * @size: size of the array
  */
 void quick_sort_under(int *array, size_t first_index,
 											size_t last_index, size_t size)
