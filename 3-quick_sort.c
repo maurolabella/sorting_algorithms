@@ -46,13 +46,13 @@ void quick_sort_under(int *array, size_t first_index,
 		/* Sorting in Ascending order with quick sort */
 		for (runner = first_index; runner < last_index; runner++)
 		{
-			if (array[runner] < array[pivotIndex])
+			if (array[runner] <= array[pivotIndex])
 			{
 				if (flag == 1)
 					swapper++;
 				else
 					flag = 1;
-				swap(array, &array[runner], &array[swapper], size);
+				swap(array, &array[swapper], &array[runner], size);
 			}
 		}
 		/* Out of loop swapping operation */
@@ -82,6 +82,6 @@ void quick_sort_under(int *array, size_t first_index,
  */
 void quick_sort(int *array, size_t size)
 {
-	if (array && size > 0)
+	if (array && size > 1)
 		quick_sort_under(array, 0, (size - 1), size);
 }
