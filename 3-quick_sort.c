@@ -82,6 +82,6 @@ void quick_sort_under(int *array, size_t first_index,
  */
 void quick_sort(int *array, size_t size)
 {
-	if (array && size > 1)
+	if (array && size > 0)
 		quick_sort_under(array, 0, (size - 1), size);
 }
