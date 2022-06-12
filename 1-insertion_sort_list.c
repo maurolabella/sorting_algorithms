@@ -67,11 +67,17 @@ void sortedInsert(listint_t **head, listint_t *newNode)
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *out = *list, *in = *list;
-
+	listint_t *out, *in;
+	if(list && *list)
+	{
+		out = *list;
+		in = *list; 
+	}
+	
 	while (out)
 	{
 		in = out;
+
 		while (in->prev && ((in->prev->n) > (in->n)))
 		{
 			swap_contiguous_nodes(list, &in);
