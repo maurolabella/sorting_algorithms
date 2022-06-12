@@ -68,12 +68,13 @@ void sortedInsert(listint_t **head, listint_t *newNode)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *out, *in;
-	if(list && *list)
+
+	if (list && *list)
 	{
 		out = *list;
-		in = *list; 
+		in = *list;
 	}
-	
+
 	while (out)
 	{
 		in = out;
