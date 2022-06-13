@@ -7,7 +7,7 @@
 		"name": "(gdb) Active_Sorting",
 		"type": "cppdbg",
 		"request": "launch",
-		"program": "${workspaceFolder}/quick",
+		"program": "${workspaceFolder}/shell",
 		"args": [],
 		"stopAtEntry": false,
 		"cwd": "${workspaceFolder}",
