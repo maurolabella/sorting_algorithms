@@ -7,7 +7,7 @@
 		"name": "(gdb) Active_Sorting",
 		"type": "cppdbg",
 		"request": "launch",
-		"program": "${workspaceFolder}/cocktail",
+		"program": "${workspaceFolder}/counting",
 		"args": [],
 		"stopAtEntry": false,
 		"cwd": "${workspaceFolder}",
