@@ -75,7 +75,7 @@ void counting_sort(int *array, size_t size)
 			count[array[i] - min]++;
 		for (j = 1; j < range; j++)
 			count[j] += count[j - 1];
-		print_array(count,range);
+		print_array(count, range);
 		for (j = size - 1; j >= 0; j--)
 		{
 			output[count[array[j] - min] - 1] = array[j];
