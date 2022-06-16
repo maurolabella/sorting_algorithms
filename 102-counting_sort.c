@@ -43,7 +43,10 @@ int min_value(int *array, size_t size)
 			if (array[i] < min)
 				min = array[i];
 		}
-		return (min);
+		if (min < 0)
+			return (min);
+		else
+			return (0);
 	}
 	return (0);
 }
