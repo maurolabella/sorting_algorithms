@@ -57,26 +57,33 @@ int min_value(int *array, size_t size)
  */
 void counting_sort(int *array, size_t size)
 {
-	int j, max, min, range, *count;
+	int j, max, min, range, *count, *output;
 	size_t i;
 
 	max = max_value(array, size);
 	if (max)
 	{
 		min = min_value(array, size);
-		int range = max - min + 1;
-		count = malloc(sizeof(int)*range);
-		if(!count)
+		range = max - min + 1;
+
+		count = malloc(sizeof(int) * range);
+		output = malloc(sizeof(int) * size);
+
+		if (!count)
 			return;
 		for (i = 0; i < size; i++)
 			count[array[i] - min]++;
 		for (j = 1; j < range; j++)
 			count[j] += count[j - 1];
-		for (i = size -1; i >= 0; i--)
+		print_array(count,range);
+		for (j = size - 1; j >= 0; j--)
 		{
-			
+			output[count[array[j] - min] - 1] = array[j];
+			count[array[j] - min]--;
 		}
-
-
+		for (i = 0; i < size; i++)
+			array[i] = output[i];
+		free(count);
+		free(output);
 	}
 }
