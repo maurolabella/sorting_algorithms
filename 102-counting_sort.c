@@ -71,7 +71,8 @@ void counting_sort(int *array, size_t size)
 
 		count = malloc(sizeof(int) * range);
 		output = malloc(sizeof(int) * size);
-
+		if (!count || !output)
+			return;
 		if (!count)
 			return;
 		for (i = 0; i < size; i++)
